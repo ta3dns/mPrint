@@ -1,0 +1,7 @@
+# .gitignore
+
+bin/
+*.o
+.DS_Store
+.vscode
+generic-sans-serif.c
