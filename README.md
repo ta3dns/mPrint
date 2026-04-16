@@ -18,9 +18,15 @@ The hardware abstraction layer, font and rendering logic are separated. You load
 
 Compile the utility using `make`. There are zero external dependencies. 
 
+> [!CAUTION]
+> **Hardware Safety:** This tool generates raw GCODE please DO NOT run unchecked GCODE on any hardware. <br>
+> **OS Compatibility:** This tool was developed on/for unix systems. It is not tested on windows and I have no intention of doing so. 
+
+
 ## Attribution
 
 The `.jhf` files used in this project, and thus the heavy lifting of the actual coordinate data for the characters were originally created by [Kamal Moustafa's Hershey-Fonts](https://github.com/kamalmostafa/hershey-fonts/tree/master?tab=readme-ov-file) repository.
+
 ## License
 
 This software is released under **GNU GPLv3.0** please read [LICENSE](https://github.com/ta3dns/mPrint/blob/main/LICENSE) for the details. 
